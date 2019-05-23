@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/ruochenxu92/loopcheck/libloopcheck"
 	"os"
 
-	"github.com/evanj/loopcheck/libloopcheck"
 )
 
 func main() {
