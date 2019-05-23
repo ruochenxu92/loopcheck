@@ -3,6 +3,7 @@ package libloopcheck
 import (
 	"bytes"
 	"fmt"
+	"errors"
 	"go/ast"
 	"go/parser"
 	"go/printer"
