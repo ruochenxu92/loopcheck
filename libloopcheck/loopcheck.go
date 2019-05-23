@@ -47,6 +47,7 @@ func CheckFiles(paths []string) error {
 			usagePosition.Filename, usagePosition.Line, warn.usageExpr)
 		rangePosition := fset.Position(warn.rangePos)
 		fmt.Printf("  range at line %d: %s\n", rangePosition.Line, warn.rangeExpr)
+		return errors.New("please avoid using address of loop variable")
 	}
 	return nil
 }
